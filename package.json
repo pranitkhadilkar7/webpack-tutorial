@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Tutorial project to understand webpack",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "author": "Pranit Khadilkar",
   "license": "MIT",
   "dependencies": {},
