@@ -1,8 +1,9 @@
 import logoImg from './assets/logo.jpeg'
+import kiwiText from './assets/altText.txt'
 
 export function addImage() {
     const img = document.createElement('img')
-    img.alt = 'logo'
+    img.alt = kiwiText
     img.width = 300
     img.height= 300
     img.src = logoImg
