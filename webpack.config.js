@@ -71,7 +71,9 @@ module.exports = {
                 path.join(process.cwd(), 'build/**/*')
             ]
         }),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            title: 'Webpack Tutorial'
+        })
     ],
     mode: 'none'
 }
